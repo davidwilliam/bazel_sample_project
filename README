@@ -1,0 +1,5 @@
+# Bazel Sample Project
+
+A toy example to showcase how to build and test a C++ project with Bazel.
+
+I wrote a blog post about building and testing with Bazel where I discuss the basics.
