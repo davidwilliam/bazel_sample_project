@@ -1,0 +1,45 @@
+# Bazel build files
+bazel-*
+
+# User-specific Bazel configurations
+*.bazelrc.local
+
+# Bazel log files
+*.log
+
+# Compiled object files, binaries, and libraries
+**/*.o
+**/*.lo
+**/*.la
+**/*.a
+**/*.so
+**/*.dylib
+**/*.exe
+
+# Output directories
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+
+# Temporary and generated files
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+
+# C++ compilation files
+*.d
+*.gcno
+*.gcda
+*.gch
+*.gcov
+
+# MacOS files
+.DS_Store
+
+# Generated protobuf files (if any)
+*.pb.cc
+*.pb.h
+
+.vscode/
+
